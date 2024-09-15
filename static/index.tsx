@@ -1,7 +1,6 @@
 /// <reference lib="DOM" />
 import { hc } from 'hono/client';
 import { FC, useEffect, useState } from 'hono/jsx';
-import { render } from 'hono/jsx/dom';
 import { AppType } from '../main.ts';
 
  export const App: FC = (_) => {
@@ -35,4 +34,3 @@ export const Home = () => {
   </html>);
 }
 
-render(<App />, document.getElementById('app')!)
